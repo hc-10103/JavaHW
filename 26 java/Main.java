@@ -25,7 +25,8 @@ public class Main {
                 b1.withdraw(amount);
             }
 
-            System.out.println("Your Balance is " + b1.getBalance() + " now");
+            System.out.println("Your Balance is " + b1.getId() + ": " + b1.getBalance() + " now");
+            
 
         }
     
