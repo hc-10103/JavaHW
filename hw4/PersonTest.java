@@ -34,7 +34,7 @@ public class PersonTest {
         System.out.println(p1.getAge());
 
         // createAdult 테스트
-        System.out.println("createAdult test");
+        System.out.println(" createAdult test");
         Person adult = Person.createAdult();
         System.out.println(adult.getName());
         System.out.println(adult.getAge());
