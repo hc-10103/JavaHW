@@ -29,7 +29,7 @@ public class PersonTest {
 
         // setPerson 테스트
         System.out.println("setPerson test");
-        p1.setPerson("Emma Choi", 25);
+        p1.setPerson("Ahn heechan", 25);
         System.out.println(p1.getName());
         System.out.println(p1.getAge());
 
@@ -58,7 +58,7 @@ public class PersonTest {
         System.out.println(adolescent.getAge());
 
         // createTeenager 테스트
-        System.out.println("createTeenager test");
+        System.out.println("create Teenager test");
         Person teenager = Person.createTeenager();
         System.out.println(teenager.getName());
         System.out.println(teenager.getAge());
