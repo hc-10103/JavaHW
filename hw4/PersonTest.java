@@ -58,7 +58,7 @@ public class PersonTest {
         System.out.println(adolescent.getAge());
 
         // createTeenager 테스트
-        System.out.println("create Teenager test");
+        System.out.println("create Teenager test!");
         Person teenager = Person.createTeenager();
         System.out.println(teenager.getName());
         System.out.println(teenager.getAge());
